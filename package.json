@@ -1,5 +1,5 @@
 {
-  "name": "@kenchi/nexus-plugin-prisma",
+  "name": "@madebyprism/nexus-plugin-prisma",
   "version": "0.39.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
     "typegen.d.ts"
   ],
   "scripts": {
-    "release": "npm config -L project set @kenchi:registry=https://npm.pkg.github.com/ && yarn publish && npm config -L project delete @kenchi:registry && yarn publish",
+    "release": "npm config -L project set @madebyprism:registry=https://npm.pkg.github.com/ && yarn publish && npm config -L project delete @madebyprism:registry && yarn publish",
     "clean": "rm -rf dist",
     "build": "yarn clean && yarn build:deps-sync && yarn build:module-facades && tsc",
     "build:deps-sync": "node scripts/ensure-deps-sync",

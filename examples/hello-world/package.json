@@ -10,7 +10,7 @@
     "nexus:reflect": "NEXUS_SHOULD_EXIT_AFTER_GENERATE_ARTIFACTS=true ts-node --transpile-only api"
   },
   "dependencies": {
-    "@kenchi/nexus-plugin-prisma": "^0.37.0",
+    "@madebyprism/nexus-plugin-prisma": "^0.37.0",
     "@prisma/client": "^2.30.0",
     "apollo-server-express": "^2.19.1",
     "express": "^4.17.1",
